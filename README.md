@@ -2,15 +2,17 @@
 
 A set of sample bash scripts to take photos with a webcam using avconv (ffempeg) during a specific period every day and assamble them in a daily timelapse that is uploaded to YouTube.
 
-## Setup
-
-This can be run on a headless unix box (linux, freebsd or OS X).
 
 ## Requirements
 
 * `avconv` or `ffmpeg` for capturing photos and assambling the timelapse.
 * `rsync` for sending photos to a backup server on hourly basis.
-* `[youtube-upload](https://code.google.com/p/youtube-upload/)` for uploading daily timelapse to YouTube
+* [`youtube-upload`](https://code.google.com/p/youtube-upload/) for uploading daily timelapse to YouTube
+
+
+## Sample video
+
+[OSCar eO Build](http://www.youtube.com/watch?v=P5xkIxFcOyw) was created using a similar approach.
 
 
 ## Crontab Examples
